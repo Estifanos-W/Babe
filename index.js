@@ -28,7 +28,7 @@ document.addEventListener("keypress",function(event){
 function playSound(event){
     switch (event) {
             case "h":
-                var audio=new Audio("./sounds/crash.mp3") 
+                var audio=new Audio("./sounds/tom-4.mp3") 
                 audio.play() 
                 break;
             case "e":
@@ -39,26 +39,19 @@ function playSound(event){
                 var audio=new Audio("./sounds/snare.mp3") 
                 audio.play() 
                 break;
-            case "i":
+            case "a":
                 var audio=new Audio("./sounds/tom-1.mp3") 
                 audio.play() 
                 break;
-            case "b":
+            case "n":
                 var audio=new Audio("./sounds/tom-2.mp3") 
                 audio.play() 
                 break;
-            case "a":
+            case "i":
                 var audio=new Audio("./sounds/tom-3.mp3") 
                 audio.play() 
                 break;
-            case "y":
-                var audio=new Audio("./sounds/tom-4.mp3") 
-                audio.play() 
-                break;
-            case "y":
-                var audio=new Audio("./sounds/tom-4.mp3") 
-                audio.play() 
-                break;
+            
         
             default:
                 break;
@@ -74,4 +67,5 @@ function addanimation(input){
         activebutton.classList.remove("pressed")
     },100)
 }
+
 
