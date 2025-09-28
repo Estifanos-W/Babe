@@ -1,4 +1,4 @@
-// for(i=0;i<7;i++){
+// for(i=0;i<8;i++){
 //     list=["button.w","button.a","button.s","button.d","button.j","button.k","button.l"]
 //     document.querySelector(list[i]).addEventListener("click", function () { alert("I got clicked!") })
 // }
@@ -51,7 +51,7 @@ function playSound(event){
                 var audio=new Audio("./sounds/tom-3.mp3") 
                 audio.play() 
                 break;
-            case "b":
+            case "y":
                 var audio=new Audio("./sounds/tom-4.mp3") 
                 audio.play() 
                 break;
@@ -74,3 +74,4 @@ function addanimation(input){
         activebutton.classList.remove("pressed")
     },100)
 }
+
